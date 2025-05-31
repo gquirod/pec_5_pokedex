@@ -34,7 +34,8 @@
     {
       "name": "pokemon-api",
       "urls": [
-        "https://pokeapi.co/api/v2/pokemon/**"
+        "https://pokeapi.co/api/v2/pokemon/**",
+        "https://raw.githubusercontent.com/PokeAPI/**"
       ],
       "cacheConfig": {
         "maxSize": 200,

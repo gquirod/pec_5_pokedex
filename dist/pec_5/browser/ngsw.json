@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1748700032396,
+  "timestamp": 1748717274933,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -48,7 +48,8 @@
     {
       "name": "pokemon-api",
       "patterns": [
-        "https:\\/\\/pokeapi\\.co\\/api\\/v2\\/pokemon\\/.*"
+        "https:\\/\\/pokeapi\\.co\\/api\\/v2\\/pokemon\\/.*",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/PokeAPI\\/.*"
       ],
       "strategy": "performance",
       "maxSize": 200,
