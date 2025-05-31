@@ -1,0 +1,10 @@
+<mat-toolbar class="header">
+    <mat-button-toggle-group appearance="legacy" name="displayMode" aria-label="Display mode" (change)="toogleDisplay($event.value)">
+        <mat-button-toggle [aria-label]="'Card grid mode'" value="card-grid">
+            <mat-icon aria-hidden="false" fontIcon="grid_view"></mat-icon>
+        </mat-button-toggle>
+        <mat-button-toggle [aria-label]="'List mode'" value="list-display">
+            <mat-icon aria-hidden="false" fontIcon="list"></mat-icon>
+        </mat-button-toggle>
+    </mat-button-toggle-group>
+</mat-toolbar>

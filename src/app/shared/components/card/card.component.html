@@ -1,0 +1,6 @@
+<mat-card class="poke-card" appearance="outlined" [routerLink]="['/detail', index]">
+<mat-card-header>
+    <mat-card-title>{{pokemon.name | titlecase}}</mat-card-title>
+</mat-card-header>
+    <img class="img-responsive" mat-card-image width="450" height="450" ngSrc="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{index}}.png" sizes="(max-width: 600px) 90vw, 40vw" alt="Image of {{pokemon.name}}">
+</mat-card>

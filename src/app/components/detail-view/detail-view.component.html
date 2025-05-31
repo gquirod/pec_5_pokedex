@@ -1,0 +1,26 @@
+<div class="pokemon-detail" *ngIf="pokemonDetail">
+    <div class="pokemon-detail-header">
+        <p class="header-name"><strong>Nombre:</strong> {{pokemonDetail.name | titlecase }}</p>
+        <a mat-raised-button routerLink="/">Al menú</a>
+    </div>
+    <img class="img-responsive" width="400" height="400" ngSrc="{{pokemonDetail.sprites.front_default}}" alt="Sprite of {{ pokemonDetail.name}}">
+    <mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
+        <mat-expansion-panel-header>
+        <mat-panel-title><strong>Información extra</strong></mat-panel-title>
+        </mat-expansion-panel-header>
+        <p><strong>Posición Pokédex:</strong> {{pokemonDetail.id}}</p>
+        <p><strong>Tipo:</strong> {{pokemonDetail.types[0].type.name | titlecase }}</p>
+        <p><strong>Altura:</strong> {{pokemonDetail.height / 10}} m</p>
+        <p><strong>Peso:</strong> {{pokemonDetail.weight / 10}} kg</p>
+    </mat-expansion-panel>
+    </mat-accordion>
+</div>
+<div class="spinner-container" *ngIf="isLoading">
+    <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+</div>
+<div class="error-view" *ngIf="!pokemonDetail && !isLoading">
+    <p>Error al cargar la vista</p>
+</div>
+
+    

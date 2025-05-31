@@ -1,0 +1,13 @@
+<app-header (changeDisplay)="currentDisplay = $event"></app-header>
+<div class="grid-display container-margins" *ngIf="currentDisplay === 'card-grid'" [@appearGradualy]>
+    <app-card *ngFor="let pokemon of pokemons, index as i" [pokemon]="pokemon" [index]="i + 1"></app-card>
+</div>
+<div class="spinner-container" *ngIf="isLoading">
+    <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+</div>
+<div class="container-margins" *ngIf="currentDisplay === 'list-display'" [@appearGradualy]>
+    <app-grid [pokemons]="pokemons"></app-grid>
+</div>
+
+
+
