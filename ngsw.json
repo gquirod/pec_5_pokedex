@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1748713123763,
+  "timestamp": 1748713342838,
   "index": "/pec_5_pokedex/index.html",
   "assetGroups": [
     {
@@ -10,16 +10,7 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [
-        "/pec_5_pokedex/chunk-Q5CGLILQ.js",
-        "/pec_5_pokedex/chunk-RA4DHZ46.js",
-        "/pec_5_pokedex/favicon.ico",
-        "/pec_5_pokedex/index.html",
-        "/pec_5_pokedex/main-6YCMCBBE.js",
-        "/pec_5_pokedex/manifest.webmanifest",
-        "/pec_5_pokedex/polyfills-FFHMD2TL.js",
-        "/pec_5_pokedex/styles-RSAQMOR5.css"
-      ],
+      "urls": [],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons"
       ]
@@ -69,15 +60,7 @@
     "/pec_5_pokedex/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
     "/pec_5_pokedex/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/pec_5_pokedex/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/pec_5_pokedex/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/pec_5_pokedex/chunk-Q5CGLILQ.js": "1e06f855f8da291cc0fd0b82af0ddd5efa2b1f4b",
-    "/pec_5_pokedex/chunk-RA4DHZ46.js": "c824bd848ba7de647ffcc3d4ec681b6a1b1a0647",
-    "/pec_5_pokedex/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/pec_5_pokedex/index.html": "17d9366c631dca819eb5f3ce7b9ede9cf2872c14",
-    "/pec_5_pokedex/main-6YCMCBBE.js": "c42a6dedb86c7aaf9b7bf0a21804f146208543ae",
-    "/pec_5_pokedex/manifest.webmanifest": "e5145ae4b57f2542376efc318b7b766b827b86d4",
-    "/pec_5_pokedex/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "/pec_5_pokedex/styles-RSAQMOR5.css": "571732b9816b033684ccda6c5cd61da22fd3b43d"
+    "/pec_5_pokedex/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95"
   },
   "navigationUrls": [
     {
